@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+/* Heading */
+
+header{
+    background-color: #35424a;
+    color: #ccc;
+    min-height: 70px;
+    padding-top: 25px;
+    border-bottom: #e8491d 3px solid;
+}
+header .branding{
+    float: left;
+}
+header h1{
+    margin: 0;
+    text-align: center;
+}
+header .highlight{
+    color: #e8491d;
+    font-weight: bold;
+}
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+header ul{
+    margin: 0;
+    padding: 0;
+}
+header li{
+    float: left;
+    display: inline;
+    list-style-type: none;
+    font-size: 18px;
+    padding: 0 20px 0 20px;
+}
+header a{
+    text-decoration: none;
+    color:#ccc;
+    text-transform: uppercase;
+}
+header a:hover{
+    font-weight: bolder;
+}
+
+/* Newsletter */
+
+#newsletter{
+    background-color: #35424a;
+    padding: 35px 0px;
+    color: #ffffff;
+}
+#newsletter h1{
+    float: left;
+}
+#newsletter form{
+    float: right;
+}
+#newsletter [type="email"]{
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+.btn{
+    height: 34px;
+    color:#ffffff;
+    padding: 8px;
+    background-color: #e8491d;
+    border: transparent;
+}
+
+/* About Us */
+.abtLeft{
+    box-sizing: content-box;
+    float: left;
+    margin: 20px 40px 20px 0px;
+    width: 65%;
+}
+.abtRight{
+    box-sizing: border-box;
+    color:#f4f4f4;
+    background-color: #35424a;
+    float: right;
+    margin: 40px 0px;
+    padding: 20px;
+    width: 30%;
+}
+#about p{
+    margin: 15px 0px;
+}
+.abtRight h3{
+    margin: 5px 0px;
+}
+.block{
+    box-sizing: border-box;
+    color: #f4f4f4;
+    background-color: #35424a;
+    padding: 2px 12px;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f4f4f4;
+    background-color: #e8491d;
+    min-height: 90px;
+}
