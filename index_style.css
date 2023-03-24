@@ -134,3 +134,23 @@ footer{
     background-color: #e8491d;
     min-height: 90px;
 }
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+    header .branding,
+    header .menu,
+    header .menu li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes .box
+    {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    #newsletter form .btn,
+    #newsletter form input[type="email"]{
+        width: 100%;
+    }
+}
